@@ -12,3 +12,10 @@ jobs:
 
       - name: Step 2 - Print the date
         run: date
+
+      - name: Show current directory
+        run: pwd
+
+      - name: List all files
+        run: ls -la
+
